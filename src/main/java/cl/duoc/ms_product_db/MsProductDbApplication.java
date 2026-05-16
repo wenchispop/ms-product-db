@@ -1,4 +1,4 @@
-package cl.app.ms_product_db;
+package cl.duoc.ms_product_db;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

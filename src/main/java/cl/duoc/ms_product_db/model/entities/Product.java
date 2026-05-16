@@ -1,4 +1,4 @@
-package cl.app.ms_product_db.model.entities;
+package cl.duoc.ms_product_db.model.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,7 +12,6 @@ import lombok.*;
 @ToString
 
 public class Product {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,9 +19,4 @@ public class Product {
     @Column(name = "nombre")
     private String name;
 
-    @Column(name = "descripcion")
-    private String description;
-
-    @Column(name = "precio")
-    private Long price;
 }
